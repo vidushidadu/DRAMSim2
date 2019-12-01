@@ -4,7 +4,7 @@ OPTFLAGS=-O3
 
 ifdef DEBUG
 ifeq ($(DEBUG), 1)
-OPTFLAGS= -O0 -g
+OPTFLAGS= -O0 -g -ggdb
 endif
 endif
 CXXFLAGS+=$(OPTFLAGS)
